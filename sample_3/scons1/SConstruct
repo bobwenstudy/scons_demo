@@ -1,0 +1,3 @@
+env=Environment()
+env.Append(CCFLAGS='-g')
+obj = env.Object('main.c')

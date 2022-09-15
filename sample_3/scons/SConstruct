@@ -1,0 +1,4 @@
+env=Environment()
+obj = env.Object('main.c')
+#print(env.Dump())
+#Program('main', obj)

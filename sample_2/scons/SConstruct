@@ -1,0 +1,3 @@
+objs = Object('main.c')
+objs += Object('test.c')
+Program('main', objs)
